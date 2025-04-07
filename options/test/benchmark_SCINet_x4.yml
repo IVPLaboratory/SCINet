@@ -1,0 +1,48 @@
+name: HR_SR
+suffix: ~  # add suffix to saved images
+model_type: SRModel
+scale: 4
+crop_border: ~  # crop border when evaluation. If None, crop the scale pixels
+num_gpu: 3 # set num_gpu: 0 for cpu mode
+manual_seed: 0
+
+datasets:
+  test_1: # the 1st test dataset
+    name: test_img
+    type: PairedImageDataset
+    dataroot_gt: /data/dl/SCINet-main-3-new/newdatasets/HR
+    dataroot_lq: /data/dl/SCINet-main-3-new/newdatasets/HR
+    io_backend:
+      type: disk
+
+
+# network structures
+network_g:
+  type: SCINet
+  num_in_ch: 3
+  num_feat: 64
+  num_block: 8
+  num_out_ch: 3
+  upscale: 4
+  # change_c: 15
+  conv: BSConvU
+
+# path
+path:
+  pretrain_network_g: /data/dl/SCINet-main/net_last_deploy_1.pth
+  strict_load_g: true
+
+# validation settings
+val:
+  save_img: True
+  suffix: ~  # add suffix to saved images, if None, use exp name
+  pbar: True
+  metrics:
+#    psnr: # metric name, can be arbitrary
+#      type: calculate_psnr
+#      crop_border: 5
+#      test_y_channel: false
+#    ssim:
+#      type: calculate_ssim
+#      crop_border: 5
+#      test_y_channel: false

@@ -1,0 +1,106 @@
+# general settings
+name: finalmodel_changedata
+model_type: SRModel
+scale: 4
+num_gpu: 1 # set num_gpu: 0 for cpu mode
+manual_seed: 0
+
+# dataset and data loader settings
+datasets:
+  train:
+    name: UAV_train_our
+    type: PairedImageDataset
+    dataroot_gt: /data/dl/SCINet-main/newdatasets/train_all/HR
+    dataroot_lq: /data/dl/SCINet-main/newdatasets/train_all/LR
+    io_backend:
+      type: disk
+
+    gt_size: 128
+    use_hflip: true
+    use_rot: true
+
+    # data loader
+    use_shuffle: true
+    num_worker_per_gpu: 3
+    batch_size_per_gpu: 4
+    dataset_enlarge_ratio: 100
+    prefetch_mode: ~
+
+  val:
+    name: UAV_valid_our
+    type: PairedImageDataset
+    dataroot_gt:  /data/dl/SCINet-main/newdatasets/val_all/HR
+    dataroot_lq:  /data/dl/SCINet-main/newdatasets/val_all/LR
+    io_backend:
+      type: disk
+
+
+# network structures
+network_g:
+  type: SCINet
+  num_in_ch: 3
+  num_feat: 64
+  num_block: 8
+  num_out_ch: 3
+  upscale: 4
+  conv: BSConvU
+
+# path
+path:
+  pretrain_network_g: ~
+  strict_load_g: true
+  resume_state: /data/dl/SCINet-main/experiments/finalmodel_changedata/training_states/2940000.state
+
+# training settings
+train:
+  optim_g:
+    type: Adam
+    lr: !!float 1e-4
+    weight_decay: 0
+    betas: [0.9, 0.999]
+
+  scheduler:
+    type: CosineAnnealingRestartLR
+    periods: [3000000]
+    restart_weights: [1]
+    eta_min: !!float 1e-7
+
+
+  total_iter: 3000000
+  warmup_iter: -1  # no warm up
+
+  # losses
+  pixel_opt:
+    type: L1Loss
+    loss_weight: 1.0
+    reduction: mean
+
+# validation settings
+val:
+  val_freq: !!float 5e4
+  save_img: false
+
+  metrics:
+    psnr: # metric name, can be arbitrary
+      type: calculate_psnr
+      crop_border: 4
+      test_y_channel: false
+    ssim:
+      type: calculate_ssim
+      crop_border: 4
+      test_y_channel: false
+
+# logging settings
+logger:
+  print_freq: 500
+  save_checkpoint_freq: !!float 2e4
+  use_tb_logger: true
+  wandb:
+    project: ~
+    resume_id: ~
+    entity: ~
+
+# dist training settings
+dist_params:
+  backend: nccl
+  port: 29500
