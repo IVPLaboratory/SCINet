@@ -21,11 +21,11 @@ Unmanned aerial vehicle (UAV) detection based on thermal infrared imaging has be
 
 ### SCINet Framework
 
-![SCINet_Framework](./assets/SCINet_Framework.png)
+![image-20250407200916034](./assets/SCINet_Framework.png)
 
 ### Visualization
 
-![Visualization](./assets/Visualization.png)
+![image-20250407201214584](./assets/Visualization.png)
 
 ## Environment
 
