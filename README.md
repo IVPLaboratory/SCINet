@@ -1,3 +1,5 @@
+Official repositoryof our TGRS 2024 paper ”SCINet: Spatial and Contrast Interactive Super-Resolution Assisted Infrared UAV Target Detection“.
+
 # SCINet
 
 ## Paper
@@ -10,10 +12,10 @@ Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang
 @article{2024TGRS_SCINet,
     author    = {Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang},
     title     = {{SCINet}: Spatial and Contrast Interactive Super-Resolution Assisted Infrared {UAV} Target Detection},
-    journal = {IEEE Transactions on Geoscience and Remote Sensing},
-    volumn     = {62},
+    journal   = {IEEE Transactions on Geoscience and Remote Sensing},
+    volume    = {62},
     year      = {2024},
-    pages = {1-22},
+    pages     = {1-22},
 }
 ```
 
