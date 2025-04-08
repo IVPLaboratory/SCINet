@@ -1,6 +1,5 @@
+## SCINet
 Official repositoryof our TGRS 2024 paper ”SCINet: Spatial and Contrast Interactive Super-Resolution Assisted Infrared UAV Target Detection“.
-
-# SCINet
 
 ## Paper
 
