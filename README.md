@@ -3,48 +3,6 @@ Official repository of our TGRS 2024 paper "SCINet: Spatial and Contrast Interac
 ## SCINet: Spatial and Contrast Interactive Super-Resolution Assisted Infrared UAV Target Detection [[PDF](https://ieeexplore.ieee.org/document/10701558)]   
 Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang
 
-## Citation
-If you find our work useful in your research, please consider citing our paper using the following BibTeX entry:
-```
-@article{2024TGRS_SCINet,
-    author    = {Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang},
-    title     = {{SCINet}: Spatial and Contrast Interactive Super-Resolution Assisted Infrared {UAV} Target Detection},
-    journal   = {IEEE Transactions on Geoscience and Remote Sensing},
-    volume    = {62},
-    year      = {2024},
-    pages     = {1-22},
-}
-```
-
-In additoin to above paper, please consider citing the following references, too, thank you:
-```
-@ARTICLE{2022TIMFang,
-  author={Houzhang Fang and Lan Ding and Liming Wang and Yi Chang and Luxin Yan and Jinhui Han},
-  journal={IEEE Transactions on Instrumentation and Measurement}, 
-  title={Infrared Small {UAV} Target Detection Based on Depthwise Separable Residual Dense Network and Multiscale Feature Fusion}, 
-  year={2022},
-  volume={71},
-  number={},
-  pages={1-20},
-}
-@ARTICLE{2023TIIFang,
-  author={Houzhang Fang and Zikai Liao and Xuhua Wang and Yi Chang and Luxin Yan},
-  journal={IEEE Transactions on Industrial Informatics}, 
-  title={Differentiated Attention Guided Network Over Hierarchical and Aggregated Features for Intelligent {UAV} Surveillance}, 
-  year={2023},
-  volume={19},
-  number={9},
-  pages={9909-9920},
-  }
-@inproceedings{2023ACMMMFang,
-  title={{DANet}: Multi-scale {UAV} Target Detection with Dynamic Feature Perception and Scale-aware Knowledge Distillation},
-  author={Houzhang Fang and Zikai Liao and Lu Wang and Qingshan Li and Yi Chang and Luxin Yan and Xuhua Wang},
-  booktitle={Proceedings of the 31st ACM International Conference on Multimedia (ACMMM)},
-  pages={2121-2130},
-  year={2023},
-}
-```
-
 ### Abstract
 
 Unmanned aerial vehicle (UAV) detection based on thermal infrared imaging has been one of the most important sensing technologies in the anti-UAV system. However, the technical limitations and long-range detection of thermal sensors often lead to acquiring low-resolution (LR) infrared images, thereby bringing great challenges for the subsequent target detection task. In this article, we propose a novel spatial and contrast interactive super-resolution network (SCINet) for assisting infrared UAV target detection. The network consists of two main subnetworks: a spatial enhancement branch (SEB) and a contrast enhancement branch (CEB). The SEB embeds the lightweight convolution module and attention mechanism to highlight the spatial structure detail features of infrared UAV targets. The proposed CEB incorporates the center-oriented contrast-aware module and multibranch collapsible module, which can provide local contrast priors to reconstruct the super-resolved UAV target image. The spatial features of the intermediate layers from the SEB are integrated into the CEB as a rich gradient prior. Besides, the output features of the CEB are aggregated into those of the SEB for further supplementing the contrast of spatial features in return. Dual-branch feature interaction (DBFI) of the SEB and CEB can further enhance the spatial details and target saliency of the targets. In addition, we also introduce an infrared UAV detection network via a new dual-dimensional feature calibration module (DFCM) for boosting the detection performance. Extensive experiments demonstrate that the SCINet outperforms the state-of-the-art (SOTA) SR methods on real infrared UAV sequences and improves the detection performance of infrared small UAV targets. 
@@ -94,6 +52,48 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 ```
 
 For more training commands and details, please check the docs in [BasicSR](https://github.com/XPixelGroup/BasicSR)  
+
+## Citation
+If you find our work useful in your research, please consider citing our paper using the following BibTeX entry:
+```
+@article{2024TGRS_SCINet,
+    author    = {Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang},
+    title     = {{SCINet}: Spatial and Contrast Interactive Super-Resolution Assisted Infrared {UAV} Target Detection},
+    journal   = {IEEE Transactions on Geoscience and Remote Sensing},
+    volume    = {62},
+    year      = {2024},
+    pages     = {1-22},
+}
+```
+
+In additoin to above paper, please consider citing the following references, too, thank you:
+```
+@ARTICLE{2022TIMFang,
+  author={Houzhang Fang and Lan Ding and Liming Wang and Yi Chang and Luxin Yan and Jinhui Han},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={Infrared Small {UAV} Target Detection Based on Depthwise Separable Residual Dense Network and Multiscale Feature Fusion}, 
+  year={2022},
+  volume={71},
+  number={},
+  pages={1-20},
+}
+@ARTICLE{2023TIIFang,
+  author={Houzhang Fang and Zikai Liao and Xuhua Wang and Yi Chang and Luxin Yan},
+  journal={IEEE Transactions on Industrial Informatics}, 
+  title={Differentiated Attention Guided Network Over Hierarchical and Aggregated Features for Intelligent {UAV} Surveillance}, 
+  year={2023},
+  volume={19},
+  number={9},
+  pages={9909-9920},
+  }
+@inproceedings{2023ACMMMFang,
+  title={{DANet}: Multi-scale {UAV} Target Detection with Dynamic Feature Perception and Scale-aware Knowledge Distillation},
+  author={Houzhang Fang and Zikai Liao and Lu Wang and Qingshan Li and Yi Chang and Luxin Yan and Xuhua Wang},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia (ACMMM)},
+  pages={2121-2130},
+  year={2023},
+}
+```
 
 ## Contact
 If you have any question, please contact: houzhangfang@xidian.edu.cn,
