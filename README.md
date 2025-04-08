@@ -100,7 +100,6 @@ year        =  {2023},
   number    =  {},
   pages     =  {1-20},
 }
-
 ```
 
 ## Contact
