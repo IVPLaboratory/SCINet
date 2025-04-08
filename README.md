@@ -68,14 +68,12 @@ If you find our work useful in your research, please consider citing our paper u
 
 In additoin to the above paper, please also consider citing the following references. thank you!
 ```
-@ARTICLE{2022TIMFang,
-  author={Houzhang Fang and Lan Ding and Liming Wang and Yi Chang and Luxin Yan and Jinhui Han},
-  journal={IEEE Transactions on Instrumentation and Measurement}, 
-  title={Infrared Small {UAV} Target Detection Based on Depthwise Separable Residual Dense Network and Multiscale Feature Fusion}, 
-  year={2022},
-  volume={71},
-  number={},
-  pages={1-20},
+@inproceedings{2025CVPR_UniCD,
+    author    = {Houzhang Fang; Xiaolin Wang; Zengyang Li; Lu Wang; Qingshan Li; Yi Chang; Luxin Yan},
+    title     = {Detection-Friendly Nonuniformity Correction: A Union Framework for Infrared {UAV} Target Detection},
+    booktitle   = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2025},
+    pages     = { },
 }
 @ARTICLE{2023TIIFang,
   author={Houzhang Fang and Zikai Liao and Xuhua Wang and Yi Chang and Luxin Yan},
@@ -92,6 +90,15 @@ In additoin to the above paper, please also consider citing the following refere
   booktitle={Proceedings of the 31st ACM International Conference on Multimedia (ACMMM)},
   pages={2121-2130},
   year={2023},
+}
+@ARTICLE{2022TIMFang,
+  author={Houzhang Fang and Lan Ding and Liming Wang and Yi Chang and Luxin Yan and Jinhui Han},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={Infrared Small {UAV} Target Detection Based on Depthwise Separable Residual Dense Network and Multiscale Feature Fusion}, 
+  year={2022},
+  volume={71},
+  number={},
+  pages={1-20},
 }
 ```
 
