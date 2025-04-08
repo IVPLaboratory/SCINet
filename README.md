@@ -20,7 +20,7 @@ In additoin to above paper, please consider citing the following references, too
 ```
 @ARTICLE{2022TIMFang,
   author={Houzhang Fang and Lan Ding and Liming Wang and Yi Chang and Luxin Yan and Jinhui Han},
-  journal={IEEE Trans. Instrum. Meas.}, 
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
   title={Infrared Small {UAV} Target Detection Based on Depthwise Separable Residual Dense Network and Multiscale Feature Fusion}, 
   year={2022},
   volume={71},
@@ -28,14 +28,21 @@ In additoin to above paper, please consider citing the following references, too
   pages={1-20},
 }
 @ARTICLE{2023TIIFang,
-  author={Fang, Houzhang and Liao, Zikai and Wang, Xuhua and Chang, Yi and Yan, Luxin},
-  journal={IEEE Trans. Ind. Informat.}, 
+  author={Houzhang Fang and Zikai Liao and Xuhua Wang and Yi Chang and Luxin Yan},
+  journal={IEEE Transactions on Industrial Informatics}, 
   title={Differentiated Attention Guided Network Over Hierarchical and Aggregated Features for Intelligent {UAV} Surveillance}, 
   year={2023},
   volume={19},
   number={9},
   pages={9909-9920},
   }
+@inproceedings{2023ACMMMFang,
+  title={{DANet}: Multi-scale {UAV} Target Detection with Dynamic Feature Perception and Scale-aware Knowledge Distillation},
+  author={Houzhang Fang and Zikai Liao and Lu Wang and Qingshan Li and Yi Chang and Luxin Yan and Xuhua Wang},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia (ACMMM)},
+  pages={2121-2130},
+  year={2023},
+}
 ```
 
 ### Abstract
