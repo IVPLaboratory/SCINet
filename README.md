@@ -5,6 +5,7 @@
 [SCINet: Spatial and Contrast Interactive Super-Resolution Assisted Infrared UAV Target Detection](https://ieeexplore.ieee.org/document/10701558)   
 Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang
 
+## Citation
 ```
 @article{2024TGRS_SCINet,
     author    = {Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang},
