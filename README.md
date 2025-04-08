@@ -6,7 +6,7 @@
 Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang
 
 ```
-@InProceedings{Li_2022_CVPR,
+@InProceedings{2024TGR_SCINet,
     author    = {Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang},
     title     = {SCINet: Spatial and Contrast Interactive Super-Resolution Assisted Infrared UAV Target Detection},
     booktitle = {IEEE Transactions on Geoscience and Remote Sensing},
