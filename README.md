@@ -2,7 +2,7 @@ Official repositoryof our TGRS 2024 paper "SCINet: Spatial and Contrast Interact
 
 ## Paper
 
-[SCINet: Spatial and Contrast Interactive Super-Resolution Assisted Infrared UAV Target Detection](https://ieeexplore.ieee.org/document/10701558)   
+[SCINet: Spatial and Contrast Interactive Super-Resolution Assisted Infrared UAV Target Detection][PDF](https://ieeexplore.ieee.org/document/10701558)   
 Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang
 
 ## Citation
