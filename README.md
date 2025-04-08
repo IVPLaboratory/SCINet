@@ -6,7 +6,7 @@ Official repositoryof our TGRS 2024 paper "SCINet: Spatial and Contrast Interact
 Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang
 
 ## Citation
-If you find our work useful in your research, please cite our paper
+If you find our work useful in your research, please consider citing our paper using the following BibTeX entry:
 ```
 @article{2024TGRS_SCINet,
     author    = {Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang},
