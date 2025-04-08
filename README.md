@@ -66,7 +66,7 @@ If you find our work useful in your research, please consider citing our paper u
 }
 ```
 
-In additoin to the above paper, please also consider citing the following references. thank you!
+In additoin to the above paper, please also consider citing the following references. Thank you!
 ```
 @inproceedings{2025CVPR_UniCD,
     author    = {Houzhang Fang; Xiaolin Wang; Zengyang Li; Lu Wang; Qingshan Li; Yi Chang; Luxin Yan},
