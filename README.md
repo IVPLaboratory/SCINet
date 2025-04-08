@@ -106,7 +106,7 @@ year        =  {2023},
 ## Contact
 If you have any question, please contact: houzhangfang@xidian.edu.cn,
 
-Copyright: Xidian University.
+Copyright \textcopyright Xidian University.
 
 ## Acknowledgments
 Some of the SR code is based on [BasicSR](https://github.com/XPixelGroup/BasicSR/). Thanks for their excellent work!
