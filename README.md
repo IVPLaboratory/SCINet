@@ -69,7 +69,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 For more training commands and details, please check the docs in [BasicSR](https://github.com/XPixelGroup/BasicSR)  
 
 ## Acknowledgments
-The code is based on [BasicSR](https://github.com/XPixelGroup/BasicSR/). Thanks for their excellent work!
+Some of the SR code is based on [BasicSR](https://github.com/XPixelGroup/BasicSR/). Thanks for their excellent work!
 
 ## Contact
 If you have any question, please contact: houzhangfang@xidian.edu.cn,
