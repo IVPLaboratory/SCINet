@@ -1,4 +1,4 @@
-Official repositoryof our TGRS 2024 paper ``SCINet: Spatial and Contrast Interactive Super-Resolution Assisted Infrared UAV Target Detection".
+Official repositoryof our TGRS 2024 paper "SCINet: Spatial and Contrast Interactive Super-Resolution Assisted Infrared UAV Target Detection".
 
 ## Paper
 
@@ -70,8 +70,8 @@ For more training commands and details, please check the docs in [BasicSR](https
 
 ## Acknowledgments
 
-## Contact
-If you have any question, please email houzhangfang@xidian.edu.cn.
+%## Contact
+%If you have any question, please email houzhangfang@xidian.edu.cn.
 
 ## License
 MIT License.
