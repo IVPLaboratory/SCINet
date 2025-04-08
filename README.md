@@ -75,7 +75,7 @@ In additoin to the above paper, please also consider citing the following refere
     year      = {2025},
     pages     = { },
 }
-@ARTICLE{2023TIIFang,
+@ARTICLE{2023TII_DAGNet,
   author={Houzhang Fang and Zikai Liao and Xuhua Wang and Yi Chang and Luxin Yan},
   journal={IEEE Transactions on Industrial Informatics}, 
   title={Differentiated Attention Guided Network Over Hierarchical and Aggregated Features for Intelligent {UAV} Surveillance}, 
@@ -84,7 +84,7 @@ In additoin to the above paper, please also consider citing the following refere
   number={9},
   pages={9909-9920},
   }
-@inproceedings{2023ACMMMFang,
+@inproceedings{2023ACMMM_DANet,
   title={{DANet}: Multi-scale {UAV} Target Detection with Dynamic Feature Perception and Scale-aware Knowledge Distillation},
   author={Houzhang Fang and Zikai Liao and Lu Wang and Qingshan Li and Yi Chang and Luxin Yan and Xuhua Wang},
   booktitle={Proceedings of the 31st ACM International Conference on Multimedia (ACMMM)},
