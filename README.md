@@ -1,4 +1,3 @@
-## SCINet
 Official repositoryof our TGRS 2024 paper ``SCINet: Spatial and Contrast Interactive Super-Resolution Assisted Infrared UAV Target Detection".
 
 ## Paper
@@ -7,6 +6,7 @@ Official repositoryof our TGRS 2024 paper ``SCINet: Spatial and Contrast Interac
 Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang
 
 ## Citation
+If you find our work useful in your research, please cite our paper
 ```
 @article{2024TGRS_SCINet,
     author    = {Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang},
@@ -68,6 +68,10 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 
 For more training commands and details, please check the docs in [BasicSR](https://github.com/XPixelGroup/BasicSR)  
 
-## Contact
+## Acknowledgments
 
+## Contact
 If you have any question, please email houzhangfang@xidian.edu.cn.
+
+## License
+MIT License.
