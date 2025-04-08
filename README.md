@@ -66,7 +66,7 @@ If you find our work useful in your research, please consider citing our paper u
 }
 ```
 
-In additoin to above paper, please consider citing the following references, too, thank you:
+In additoin to the above paper, please also consider citing the following references. thank you!
 ```
 @ARTICLE{2022TIMFang,
   author={Houzhang Fang and Lan Ding and Liming Wang and Yi Chang and Luxin Yan and Jinhui Han},
