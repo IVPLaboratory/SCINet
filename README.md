@@ -54,7 +54,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 For more training commands and details, please check the docs in [BasicSR](https://github.com/XPixelGroup/BasicSR)  
 
 ## Citation
-If you find our work useful in your research, please consider citing our paper using the following BibTeX entry:
+If you find our work useful in your research, please consider citing our paper:
 ```
 @article{2024TGRS_SCINet,
   title     = {{SCINet}: Spatial and Contrast Interactive Super-Resolution Assisted Infrared {UAV} Target Detection},
