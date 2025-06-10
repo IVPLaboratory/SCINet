@@ -3,15 +3,15 @@ Official repository of our TGRS 2024 paper "SCINet: Spatial and Contrast Interac
 ## SCINet: Spatial and Contrast Interactive Super-Resolution Assisted Infrared UAV Target Detection [[PDF](https://ieeexplore.ieee.org/document/10701558)],  Supplemental Material [[PDF](https://ieeexplore.ieee.org/document/10701558/media#media)] 
 Authors: Houzhang Fang; Lan Ding; Xiaolin Wang; Yi Chang; Luxin Yan; Li Liu; Jinrui Fang
 
-### Abstract
+## Abstract
 
 Unmanned aerial vehicle (UAV) detection based on thermal infrared imaging has been one of the most important sensing technologies in the anti-UAV system. However, the technical limitations and long-range detection of thermal sensors often lead to acquiring low-resolution (LR) infrared images, thereby bringing great challenges for the subsequent target detection task. In this article, we propose a novel spatial and contrast interactive super-resolution network (SCINet) for assisting infrared UAV target detection. The network consists of two main subnetworks: a spatial enhancement branch (SEB) and a contrast enhancement branch (CEB). The SEB embeds the lightweight convolution module and attention mechanism to highlight the spatial structure detail features of infrared UAV targets. The proposed CEB incorporates the center-oriented contrast-aware module and multibranch collapsible module, which can provide local contrast priors to reconstruct the super-resolved UAV target image. The spatial features of the intermediate layers from the SEB are integrated into the CEB as a rich gradient prior. Besides, the output features of the CEB are aggregated into those of the SEB for further supplementing the contrast of spatial features in return. Dual-branch feature interaction (DBFI) of the SEB and CEB can further enhance the spatial details and target saliency of the targets. In addition, we also introduce an infrared UAV detection network via a new dual-dimensional feature calibration module (DFCM) for boosting the detection performance. Extensive experiments demonstrate that the SCINet outperforms the state-of-the-art (SOTA) SR methods on real infrared UAV sequences and improves the detection performance of infrared small UAV targets. 
 
-### SCINet Framework
+## SCINet Framework
 
 ![image-20250407200916034](./assets/SCINet_Framework.png)
 
-### Visualization
+## Visualization
 
 ![image-20250407201214584](./assets/Visualization.png)
 
@@ -20,7 +20,7 @@ Unmanned aerial vehicle (UAV) detection based on thermal infrared imaging has be
 [PyTorch >= 1.7](https://pytorch.org/)  
 [BasicSR >= 1.3.4.9](https://github.com/XPixelGroup/BasicSR)
 
-### Installation
+## Installation
 
 ```
 pip install -r requirements.txt
